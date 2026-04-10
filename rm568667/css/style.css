@@ -1,0 +1,42 @@
+/* margin:0 0 0 0 - aplicada todos os lados
+   margin:0 0 0 - aplica ao top bottom e right
+   margin:0 0 - aplica ao top-bottom e right-left
+   margin:0 - aplica a todos os lados
+   */
+
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box
+}
+
+
+
+/* Olá! Sua tarefa é preparar a base do nosso projeto.
+
+Requisitos:
+
+    No arquivo CSS, aplique o reset básico: margin: 0, padding: 0 e box-sizing: border-box no seletor universal *.
+
+    No html, configure a fonte base usando 62.5%.
+
+    No body, defina uma cor de fundo escura (ex: #1a1b18) e uma cor de texto clara (ex: #dfeedf).
+
+    Aplique a fonte 'Arial' ou uma fonte local que você tenha configurado.
+
+Dica: Lembre-se que o font-size: 62.5% fará com que 1rem valha 10px! */
+
+h1{ 
+    color: red;
+    width: 100px;
+    height: 100px;
+    border: 2px solid #000000;
+
+}
+
+#container{
+    background-color: #aa9898;
+    margin: 0 auto;
+    width: 70%;
+}
